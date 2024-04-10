@@ -1,0 +1,20 @@
+@mixin fontStyler($fontsize,$fontweight,$fontfamily){
+font-size: $fontsize;
+font-weight: $fontweight;
+font-family: $fontfamily;
+}
+@mixin flexHori-center{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+@mixin flexVerti-center{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+

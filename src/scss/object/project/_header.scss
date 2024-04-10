@@ -1,0 +1,36 @@
+
+    .header-wrap_logo{
+        position: relative;
+        transform: 0.6s;
+        .header-wrap_logo--link{
+        color: $white;
+        padding: 0 100px;
+        }
+    }
+    .header-wrap_listgroup{
+        padding: 0 100px;
+
+        width: 100%;
+        position: relative;
+        display: flex;
+      justify-content:end;
+        align-items: center;
+        li {
+            position: relative;
+            list-style: none;
+            color: $white;
+            a {
+                position: relative;
+                padding:  15px;
+                color: $white;
+                transform: 0.5s;
+            }
+        }
+    }
+
+.sticky{
+ 
+   .header-wrap_listgroup{
+
+   }
+}
